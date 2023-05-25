@@ -1,0 +1,35 @@
+#myTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  #myTable th,
+  #myTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  #myTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  /* Row Coloring */
+  #myTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  /* Button Styling */
+  .action-button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .startExam{
+    padding: 10px 30px !important;
+    margin-top: 3px !important;
+  }

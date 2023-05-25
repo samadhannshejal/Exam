@@ -1,0 +1,29 @@
+
+[{
+    "id"     : 1,
+    "title"  : "Which one of the followings is a programming language?",
+    "type"   : "radio",
+    "options": ["HTTP", "HTML", "HPML", "FTP"],
+    "answer" : "HTML",
+    "mark"   :  5,
+    "selected":""
+
+  },
+  {
+    "id": 2,
+    "title": "Which one of the followings are search engine?",
+    "type": "checkbox", 
+    "options": ["Yahoo", "Google", "Chrome", "Tor"],
+    "answer": ["Yahoo", "Google", "Tor"],
+    "mark": 10,
+    "selected":""
+  },
+  {
+    "id":3,
+    "title": "Write any one browser name that you know",
+    "type": "text", 
+    "answer": ["Chrome", "Firefox", "safari", "opera"],
+    "mark": 10,
+    "selected":""
+  }]
+ 
