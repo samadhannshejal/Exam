@@ -1,0 +1,39 @@
+#navigateLink{
+    text-decoration: none;
+}
+body{
+    background-image: url('../scott-graham-OQMZwNd3ThU-unsplash.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+.button-link {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    padding: 8px 8px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .button-link:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  
+  .button-link:active {
+    background-color: #3e8e41; /* Active green */
+  }
+  .createExam{
+    position: absolute;
+    top: 10px;
+    right: 50%;
+  }

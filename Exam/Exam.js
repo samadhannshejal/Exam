@@ -23,7 +23,7 @@ for (let i = 0; i < examInfo.length; i++) {
     const url = new URL('http://127.0.0.1:5500/Exam/Paper/Paper.html');
     url.searchParams.set('id', examInfo[i].id);
     url.searchParams.set('title', examInfo[i].title);
-    url.searchParams.set('description', examInfo[i].description);
+    // url.searchParams.set('description', examInfo[i].description);
     url.searchParams.set('duration', examInfo[i].duration);
 
     // Open the target page with the URL containing the parameters

@@ -1,3 +1,7 @@
+body{
+  background-image: url('../nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.jpg');
+  background-size: cover;
+}
 #questionContainer {
     width: 80%;
     max-width: 600px;

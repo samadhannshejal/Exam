@@ -1,3 +1,7 @@
+body{
+  background-image: url('../Exam/jeshoots-com-fzOITuS1DIQ-unsplash.jpg');
+  background-size: cover;
+}
 #resultContainer {
     text-align: center;
     margin-top: 50px;
@@ -30,4 +34,24 @@
   p {
     margin: 0;
     font-size: 1em;
+  }
+  
+  .button-link {
+    display: inline-block;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button-link:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  
+  .button-link:active {
+    background-color: #3e8e41; /* Active green */
   }

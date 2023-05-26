@@ -1,5 +1,6 @@
 
-[{
+[
+  {
     "id"     : 1,
     "title"  : "Which one of the followings is a programming language?",
     "type"   : "radio",
@@ -18,12 +19,35 @@
     "mark": 10,
     "selected":""
   },
+
   {
-    "id":3,
+    "id"     : 3,
+    "title"  : "Which is ironMan of India ?",
+    "type"   : "radio",
+    "options": ["M Gandhi","Pandit Nehru","sardar vallbhbhai patel","None of the obove"],
+    "answer" : "sardar vallbhbhai patel",
+    "mark"   :  5,
+    "selected":""
+
+  },
+  {
+    "id":4,
     "title": "Write any one browser name that you know",
     "type": "text", 
     "answer": ["Chrome", "Firefox", "safari", "opera"],
     "mark": 10,
     "selected":""
-  }]
+  },
+  {
+    "id": 5,
+    "title": "Which one of the followings are search engine?",
+    "type": "checkbox", 
+    "options": ["Yahoo", "Google", "Chrome", "Tor"],
+    "answer": ["Yahoo", "Google", "Tor"],
+    "mark": 10,
+    "selected":""
+  }
+
+
+]
  

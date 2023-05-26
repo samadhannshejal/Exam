@@ -55,7 +55,7 @@ function createExam() {
   const bootstrapModal = bootstrap.Modal.getInstance(modal);
   bootstrapModal.hide();
   Swal.fire({
-    position: 'top-end',
+    position: 'center',
     icon: 'success',
     title: ' Exam Created Successfully',
     showConfirmButton: false,
