@@ -22,7 +22,7 @@
 
   {
     "id"     : 3,
-    "title"  : "Which is ironMan of India ?",
+    "title"  : "Who is ironMan of India ? options are below",
     "type"   : "radio",
     "options": ["M Gandhi","Pandit Nehru","sardar vallbhbhai patel","None of the obove"],
     "answer" : "sardar vallbhbhai patel",

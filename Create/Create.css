@@ -20,7 +20,7 @@ body{
     border: none;
     cursor: pointer;
     font-size: 14px;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 10px;
   }
@@ -32,8 +32,19 @@ body{
   .button-link:active {
     background-color: #3e8e41; /* Active green */
   }
-  .createExam{
-    position: absolute;
-    top: 10px;
-    right: 50%;
+  /* .createExam{
+    position: relative;
+    z-index: 9999; 
+  } */
+  .swal-popup-class {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
   }
+  
+  .swal-backdrop-class {
+    z-index: 9998;
+  }
+  
